@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -94,3 +97,73 @@ body {
   border-radius: 10px;
   width: 400px;
 }/*# sourceMappingURL=main.css.map */
+
+footer .contactFooter{
+  background-color: #fff;
+  height: 374px;
+}
+
+footer .contactFooter .contactUs{
+  font-family: Poppins;
+  color: #7C4032;
+  font-size: 44px;
+  line-height: 76px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+footer .details{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  justify-content: center;
+  column-gap: 80px;
+  padding: 30px 20px;
+}
+
+footer .details .messageSend form{
+  display: grid;
+  row-gap: 20px;
+}
+
+footer .details .messageSend input {
+      background: #E6AF99;
+      border: #E6AF99;
+      border-radius: 61px;
+      width: 250px;
+      height: 46px;
+      padding: 3px;
+}
+
+footer .details .messageSend input:focus{
+  outline: none;
+}
+
+#submitt {
+  width: 110px;
+  background-color: #fff;
+  justify-self: center;
+  border: 3px solid #7C4032;
+  height: 46px;
+  border-radius: 61px;
+  cursor: pointer;
+}
+
+
+footer .details .contactDetails i {
+  margin-right: 10px;
+  color:#7C4032;
+}
+
+footer .details .contactDetails p{
+  padding: 20px  ;
+  font-weight: 500;
+}
+
+
+
+footer .browBaseRectangle{
+  background-color: #55352D;
+  height: 70px;
+}
