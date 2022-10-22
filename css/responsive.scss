@@ -1,0 +1,18 @@
+@import 'mixins';
+@import 'variables';
+
+@media only screen and (max-device-width: 600px) {
+    .container{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+            ul{
+                flex-wrap: wrap;
+                flex-direction: column; //Aqui deveria mudar!
+                    li{
+                        background-color: $corSecundaria;
+                    }
+            }
+    }
+  }
