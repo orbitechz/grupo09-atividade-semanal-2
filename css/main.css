@@ -231,10 +231,19 @@ footer .details .messageSend input:focus{
 }
 
 
+footer .details .contactDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+
+}
+
 footer .details .contactDetails i {
   margin-right: 10px;
   color:#7C4032;
 }
+
 
 footer .details .contactDetails p{
   padding: 20px  ;
