@@ -238,12 +238,21 @@ footer .details .messageSend input:focus{
 }
 
 
-footer .details .contactDetails i {
+footer .details .contactDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+
+}
+
+footer .details .contactDetail i {
   margin-right: 10px;
   color:#7C4032;
 }
 
-footer .details .contactDetails p{
+
+footer .details .contactDetail p{
   padding: 20px  ;
   font-weight: 500;
 }
