@@ -50,13 +50,20 @@ body {
   text-align: center;
   justify-content: center;
  }
-  .container ul li{
+.container ul li{
     background-color: var(--corSecundaria);
     margin: 5px;
     border-radius: 10px;
     width: 200px;
     height: 200px;
     text-align: center;  
+}
+.container ul li img{
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 80%;
+  height: 80%;
 }
 .services{
   background-color: var(--corPrimaria);
