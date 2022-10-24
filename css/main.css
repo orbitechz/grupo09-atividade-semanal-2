@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+:root{
+  --corPrimaria: #7C4032;
+  --corSecundaria: #FEF4DE;
+  --fontBase: 'Roboto', sans-serif;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ 
+body {
+    font-family: "Roboto", sans-serif;  
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-}
 
 @media only screen and (max-device-width: 600px) {
   .container {
@@ -26,6 +36,74 @@ body {
     background-color: #FEF4DE;
   }
 }
+.container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+ .container ul{  
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+ }
+  .container ul li{
+    background-color: var(--corSecundaria);
+    margin: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;  
+}
+.services{
+  background-color: var(--corPrimaria);
+  padding: 25px 0 25px 0;
+}
+.services .bottomHelp{
+  background-color: #F3CE5E;
+  padding: 15px;
+  border-radius: 99px;
+  border: none;
+  margin: 15px;
+  font-family: var(--fontBase);
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+}
+.services .bottomHelp .bottomHelp:hover {
+  background-color: #fff;
+  transform: translateY(-7px);
+}
+
+.testymonials{
+  background-color: var(--corSecundaria);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.testymonials ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.testymonials li{
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 10px;
+  width: 400px;
+}
+
 .container {
   display: flex;
   flex-flow: column;
@@ -97,6 +175,8 @@ body {
   border-radius: 10px;
   width: 400px;
 }/*# sourceMappingURL=main.css.map */
+
+
 
 footer .contactFooter{
   background-color: #fff;
