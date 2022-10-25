@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root{
@@ -12,14 +12,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
- 
+
 body {
     font-family: "Roboto", sans-serif;  
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -214,20 +211,28 @@ footer .contactFooter{
 footer .contactFooter .contactUs{
   color: #7C4032;
   text-transform: uppercase;
+  font-family: 'Poppins';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 96px;
+  text-align: center;
+
 }
 
 footer .details{
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 70px;
   text-align: center;
   justify-content: center;
-  column-gap: 80px;
+  column-gap: 90px;
   padding: 30px 20px;
 }
 
 footer .details .messageSend form{
   display: grid;
   row-gap: 20px;
+
   
 }
 
@@ -252,15 +257,18 @@ footer .details .messageSend input:focus{
   height: 46px;
   border-radius: 61px;
   cursor: pointer;
+  font-family: 'Poppins';
+  color: #7C4032;
 
 }
-
 
 footer .details .contactDetails{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  gap: 25px;
+  justify-content: center;
   text-align: start;
+  margin-bottom: 80px;
 
 }
 
@@ -270,9 +278,9 @@ footer .details .contactDetails i {
 }
 
 
-footer .details .contactDetails p{
-  padding: 20px  ;
-  font-weight: 500;
+footer .details .contactDetails a{
+  text-decoration: none;
+  color: #000; ;
 }
 
 
