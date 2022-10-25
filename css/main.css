@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root{
-  --corPrimaria: #7C4032;
+  --corPrimaria: #7C4032; 
   --corSecundaria: #FEF4DE;
+  --corTerciaria: #663128;
   --fontBase: 'Roboto', sans-serif;
 }
 
@@ -81,6 +82,8 @@ body {
   cursor: pointer;
   outline: none;
   width: 200px;
+  color: var(--corTerciaria);
+
 }
 .services .bottomHelp .bottomHelp:hover {
   background-color: #fff;
@@ -94,6 +97,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.testymonials .section-head{
+  color: var(--corPrimaria);
+}
+
 .testymonials ul{
   list-style: none;
   margin: 0;
@@ -137,6 +145,15 @@ body {
   text-align: center;
 }
 
+.section-head {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  padding: 15px;
+
+}
+
 .services {
   background-color: #7C4032;
   padding: 25px 0 25px 0;
@@ -147,16 +164,21 @@ body {
   border-radius: 99px;
   border: none;
   margin: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
   width: 200px;
+  font-size: 16px;
 }
 .services .bottomHelp:hover {
   background-color: #fff;
   transform: translateY(-7px);
+}
+
+.services .section-head{
+  color: white;
 }
 
 .testymonials {
@@ -181,9 +203,7 @@ body {
   margin: 5px;
   border-radius: 10px;
   width: 400px;
-}/*# sourceMappingURL=main.css.map */
-
-
+}
 
 footer .contactFooter{
   background-color: #fff;
@@ -191,13 +211,8 @@ footer .contactFooter{
 }
 
 footer .contactFooter .contactUs{
-  font-family: Poppins;
   color: #7C4032;
-  font-size: 44px;
-  line-height: 76px;
-  text-align: center;
   text-transform: uppercase;
-  
 }
 
 footer .details{
@@ -212,6 +227,7 @@ footer .details{
 footer .details .messageSend form{
   display: grid;
   row-gap: 20px;
+  
 }
 
 footer .details .messageSend input {
@@ -235,10 +251,11 @@ footer .details .messageSend input:focus{
   height: 46px;
   border-radius: 61px;
   cursor: pointer;
+
 }
 
 
-footer .details .contactDetail{
+footer .details .contactDetails{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -246,13 +263,13 @@ footer .details .contactDetail{
 
 }
 
-footer .details .contactDetail i {
+footer .details .contactDetails i {
   margin-right: 10px;
   color:#7C4032;
 }
 
 
-footer .details .contactDetail p{
+footer .details .contactDetails p{
   padding: 20px  ;
   font-weight: 500;
 }
