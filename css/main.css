@@ -39,7 +39,7 @@ body {
 
 .bg{
   background-color: var(--cor-bg);
-  background-image: url("imgs\fundo-patthern.png");
+  background-image: url("/imgs/fundo-patthern.png");
   background-size: contain;
 }
 
