@@ -5,6 +5,7 @@
   --corPrimaria: #7C4032; 
   --corSecundaria: #FEF4DE;
   --corTerciaria: #663128;
+  --cor-bg: #FEF4DE;
   --fontBase: 'Roboto', sans-serif;
 }
 
@@ -35,6 +36,13 @@ body {
     background-color: #FEF4DE;
   }
 }
+
+.bg{
+  background-color: var(--cor-bg);
+  background-image: url("/imgs/fundo-patthern.png");
+  background-size: contain;
+}
+
 .container{
   display: flex;
   flex-flow: column;
@@ -124,10 +132,31 @@ body {
 
 }
 
+header{
+  height: 600px;
+}
+
+header h2{
+  color: var(--corTerciaria);
+  font-weight: 900;
+  font-family: Poppins;
+  font-size: 60px;
+  line-height: 65%;
+}
+header h2 span{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+header img{
+  float: right;
+  width: 400px;
+}
 .services {
   background-color: #7C4032;
   padding: 25px 0 25px 0;
 }
+
 .services .bottomHelp {
   background-color: #F3CE5E;
   padding: 15px;
@@ -152,10 +181,7 @@ body {
 }
 
 .testymonials{
-  background-image: url("/imgs/fundo-patthern.jpg");
-  background-size: contain;
   height: 600px;
-
 }
 
 .testymonials .layout {
