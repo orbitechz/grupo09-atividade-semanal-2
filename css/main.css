@@ -202,6 +202,7 @@ header img{
 
 .testymonials .section-head{
   color: var(--corPrimaria);
+  padding: 55px 0px 15px ;
 }
 
 .testymonials .layout .testmoniyalBox{
@@ -239,7 +240,7 @@ header img{
 
 .testymonials .bottomHelp{
   align-items: baseline;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 
 
